@@ -1,7 +1,7 @@
 export default class GasCalculator {
-  private TANK_SIZE: number = 57;
-  private GAS_TANK_KM: number = 400;
-  private ETHANOL_TANK_KM: number = 330;
+  private readonly TANK_SIZE: number = 57;
+  private readonly GAS_TANK_KM: number = 400;
+  private readonly ETHANOL_TANK_KM: number = 330;
 
   private ethanolTankPrice: number;
   private gasTankPrice: number;
